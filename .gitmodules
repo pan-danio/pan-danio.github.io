@@ -1,0 +1,3 @@
+[submodule "drumpad"]
+	path = drumpad
+	url = git@github.com:bez997/drumpad.tk.git

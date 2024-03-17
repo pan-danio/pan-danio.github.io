@@ -1,3 +1,6 @@
 [submodule "drumpad"]
 	path = drumpad
 	url = git@github.com:bez997/drumpad.tk.git
+[submodule "gps-viewer"]
+	path = gps-viewer
+	url = git@github.com:pan-danio/gps-viewer.git

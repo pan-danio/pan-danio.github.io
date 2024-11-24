@@ -4,3 +4,6 @@
 [submodule "gps-viewer"]
 	path = gps-viewer
 	url = git@github.com:pan-danio/gps-viewer.git
+[submodule "ntrip-nearest"]
+	path = ntrip-nearest
+	url = git@github.com:pan-danio/ntrip-nearest.git

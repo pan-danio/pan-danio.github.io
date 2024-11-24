@@ -21,6 +21,16 @@
       .card-img-top {
         object-fit: cover;
         height: 10em; /* Set the desired height of the card image */
+        position: relative;
+      }
+      
+      .card {
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+      }
+      
+      .card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
       }
     </style>
   </head>
@@ -32,24 +42,24 @@
     </header>
     <div class="container">
       <div class="row">
-        <div class="col-6 col-lg-4">
+        <div class="col-6 col-lg-4 mb-3">
           <a href="drumpad/" class="card text-decoration-none">
             <img class="card-img-top object-fit-cover" src="img/drumpad.png" alt="" />
             <h3 class="card-header card-title">Drumpad</h3>
-            <p class="card-body card-text">Happy Drumming!</p>
+            <p class="card-body card-text">An interactive online drumpad that allows you to play various drum sounds using your keyboard or mouse. Perfect for music enthusiasts and aspiring drummers.</p>
           </a>
         </div>
-        <div class="col-6 col-lg-4">
+        <div class="col-6 col-lg-4 mb-3">
           <a href="gps-viewer/" class="card text-decoration-none">
             <img class="card-img-top object-fit-cover" src="img/gps.png" alt="" />
             <h3 class="card-header card-title">GPS Viewer</h3>
-            <p class="card-body card-text">Check Your position</p>
+            <p class="card-body card-text">A real-time GPS tracking application that displays your current location on an interactive map. Features position history and accuracy indicators using weighted averaging for enhanced precision.</p>
           </a>
         </div>
-        <div class="col-6 col-lg-4">
+        <div class="col-6 col-lg-4 mb-3">
           <a href="ntrip-nearest/" class="card text-decoration-none">
             <img class="card-img-top object-fit-cover" src="img/ntrip.jpg" alt="" />
-            <h3 class="card-header card-title">NTRIP Mount Point Finder</h3>
+            <h3 class="card-header card-title">Nearest Mount Point</h3>
             <p class="card-body card-text">Find the nearest NTRIP mount point in the ASG-EUPOS network</p>
           </a>
         </div>

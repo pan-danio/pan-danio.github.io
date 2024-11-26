@@ -1,9 +1,9 @@
 [submodule "drumpad"]
 	path = drumpad
-	url = git@github.com:pan-danio/drumpad.tk.git
+	url = git@github.com:danielmroczek/drumpad.git
 [submodule "gps-viewer"]
 	path = gps-viewer
-	url = git@github.com:pan-danio/gps-viewer.git
+	url = git@github.com:danielmroczek/gps-viewer.git
 [submodule "ntrip-nearest"]
 	path = ntrip-nearest
-	url = git@github.com:pan-danio/ntrip-nearest.git
+	url = git@github.com:danielmroczek/ntrip-nearest.git

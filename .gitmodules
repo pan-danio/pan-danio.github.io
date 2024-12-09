@@ -7,3 +7,6 @@
 [submodule "ntrip-nearest"]
 	path = ntrip-nearest
 	url = git@github.com:danielmroczek/ntrip-nearest.git
+[submodule "reaction-time"]
+	path = reaction-time
+	url = git@github.com:danielmroczek/reaction-time.git

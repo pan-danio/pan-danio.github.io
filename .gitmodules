@@ -10,3 +10,6 @@
 [submodule "reaction-time"]
 	path = reaction-time
 	url = git@github.com:danielmroczek/reaction-time.git
+[submodule "blind-test"]
+	path = blind-test
+	url = git@github.com:danielmroczek/blind-test.git
